@@ -1,0 +1,7 @@
+{
+    "name": "adidas-3d-landing-page",
+    "version": "1.0.0",
+    "scripts": {
+        "deploy": "npx vercel --prod"
+    }
+}

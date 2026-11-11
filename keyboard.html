@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON — Precision Ignited</title>
+    <link rel="stylesheet" href="keyboard.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Orbitron:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">NEON</div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#assembly">Assembly</a>
+            <a href="#collection">Lineup</a>
+            <a href="#features">Features</a>
+            <a class="nav-btn" href="#">Pre-Order</a>
+        </div>
+        <div class="brand-switcher">
+            <a href="index.html" class="switch-btn">👟 Shoe Edition</a>
+            <a href="keyboard.html" class="switch-btn active">⌨️ Keyboard Edition</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Precision Assembled.<br>Power Ignited.</h1>
+            <p class="hero-subtitle">Experience the future of mechanical keyboards — built switch by switch, lit by
+                energy.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Explore Keyboards</button>
+                <button class="btn btn-secondary">Watch Assembly Video</button>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Initiate</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Cinematic Assembly Showcase -->
+    <section id="assembly" class="section assembly-section">
+        <div class="container">
+            <h2 class="section-title">Engineered to Perfection</h2>
+            <div class="assembly-stage">
+                <div class="assembly-part part-1">Wait for Frame...</div>
+                <div class="assembly-part part-2">Locking Switches...</div>
+                <div class="assembly-part part-3">Igniting RGB...</div>
+            </div>
+            <p class="section-desc">
+                From the aircraft-grade aluminum frame to the hot-swappable optical switches,
+                every component is designed for speed, durability, and pure aesthetic dominance.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section id="collection" class="section collection-section">
+        <div class="container">
+            <h2 class="section-title">Our Keyboard Lineup</h2>
+            <div class="collection-grid">
+                <!-- Using placeholder gradients for now -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(45deg, #111, #333);"></div>
+                    <h3>NeonCore RGB Pro</h3>
+                    <p>The flagship 100% layout.</p>
+                    <button class="btn-small">View Details</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(45deg, #222, #444);"></div>
+                    <h3>ShadowLite 60%</h3>
+                    <p>Compact FPS dominance.</p>
+                    <button class="btn-small">View Details</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a);"></div>
+                    <h3>Titan Mechanical Max</h3>
+                    <p>Heavy duty wireless.</p>
+                    <button class="btn-small">View Details</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(45deg, #050505, #151515);"></div>
+                    <h3>Aurora Wireless</h3>
+                    <p>White aesthetic build.</p>
+                    <button class="btn-small">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section id="features" class="section features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-block">
+                    <div class="icon">⚡</div>
+                    <h3>Hot-Swappable</h3>
+                    <p>Change switches in seconds without soldering.</p>
+                </div>
+                <div class="feature-block">
+                    <div class="icon">🌈</div>
+                    <h3>True RGB UnderGlow</h3>
+                    <p>360-degree lighting zones for maximum immersion.</p>
+                </div>
+                <div class="feature-block">
+                    <div class="icon">🛡️</div>
+                    <h3>Aircraft-Grade Build</h3>
+                    <p>Solid aluminum top plate for zero flex.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Detail (Flagship) -->
+    <section class="section detail-section">
+        <div class="container">
+            <div class="detail-content">
+                <h2>The Ultimate Weapon</h2>
+                <ul class="specs-list">
+                    <li><strong>Switch Type:</strong> Optical Linear Red</li>
+                    <li><strong>Latency:</strong> 0.2ms Response Time</li>
+                    <li><strong>RGB Modes:</strong> 16.8 Million Colors</li>
+                    <li><strong>Wireless:</strong> 2.4GHz + Bluetooth 5.0</li>
+                </ul>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <h3>Build Your Setup. Light the Future.</h3>
+            <div class="footer-buttons">
+                <button class="btn btn-primary">Shop Keyboards</button>
+                <button class="btn btn-secondary">Join Community</button>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 NEON Keyboards. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="keyboard.js"></script>
+</body>
+
+</html>
